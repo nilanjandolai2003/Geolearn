@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: django-yolo-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn wildlife.wsgi
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        value: 'django-insecure-k$we4xnh9&8li82=$vbl*-_szoc^lm_1@(5=r=a9qxf%o5l^o9'
+      - key: DEBUG
+        value: false
