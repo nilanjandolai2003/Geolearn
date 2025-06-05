@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-k$we4xnh9&8li82=$vbl*-_szoc^lm_1@(5=r=a9qxf%o5l^o9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['geolearn-6.onrender.com']
 
 
 
